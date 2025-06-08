@@ -147,9 +147,6 @@
     <ClInclude Include="LinkMessageBox.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="MatrixOfFate.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
@@ -174,9 +171,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LinkMessageBox.resx">
       <DependentUpon>LinkMessageBox.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MatrixOfFate.resx">
-      <DependentUpon>MatrixOfFate.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>

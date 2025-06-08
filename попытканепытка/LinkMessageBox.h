@@ -75,7 +75,7 @@ namespace попытканепытка {
             this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
             this->Name = L"LinkMessageBox";
             this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-            this->Text = L"’отите больше характеристик\?";
+            this->Text = L" ";
             this->ResumeLayout(false);
 
         }

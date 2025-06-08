@@ -1,6 +1,7 @@
 #pragma once
 #include "CardOfDay.h"
-#include "MatrixOfFate.h"
+#include "Person.h"
+#include "Relationship.h"
 #include "Horoscope.h"
 //
 namespace попытканепытка {
@@ -168,7 +169,7 @@ namespace попытканепытка {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(406, 312);
 			this->button3->TabIndex = 6;
-			this->button3->Text = L"Ќумерологи€";
+			this->button3->Text = L"ћатрица совместимости";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &FirstMenu::button3_Click);
 			// 
@@ -233,7 +234,8 @@ namespace попытканепытка {
 	}
 	private:
 		CardOfDay^ cardOfDay = nullptr;
-		MatrixOfFate^ matrixOfFate = nullptr;
+		Person^ person = nullptr;
+		Relationship^ relationship = nullptr;
 		Horoscope^ horoscope1 = nullptr;
 
 	private: System::Void exit_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -252,20 +254,28 @@ namespace попытканепытка {
 		this->Hide();
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-		matrixOfFate = gcnew MatrixOfFate();
-		matrixOfFate->Opacity = 0;
-		matrixOfFate->Show();
+		person = gcnew Person();
+		person->Opacity = 0;
+		person->Show();
 		for (double opacity = 0; opacity <= 1; opacity += 0.1)
 		{
-			matrixOfFate->Opacity = opacity;
+			person->Opacity = opacity;
 			Application::DoEvents();
 			Threading::Thread::Sleep(15);
 		}
 		this->Hide();
 	}
 	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-		
-	}
+		relationship = gcnew Relationship();
+		relationship->Opacity = 0;
+		relationship->Show();
+		for (double opacity = 0; opacity <= 1; opacity += 0.1)
+		{
+			relationship->Opacity = opacity;
+			Application::DoEvents();
+			Threading::Thread::Sleep(15);
+		}
+		this->Hide();	}
 
 	private: System::Void horoscope_Click(System::Object^ sender, System::EventArgs^ e) {
 		horoscope1 = gcnew Horoscope();

@@ -151,12 +151,11 @@ namespace попытканепытка {
 			this->A->AutoSize = true;
 			this->A->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(221)), static_cast<System::Int32>(static_cast<System::Byte>(210)),
 				static_cast<System::Int32>(static_cast<System::Byte>(234)));
-			this->A->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
+			this->A->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14));
 			this->A->ForeColor = System::Drawing::SystemColors::ControlText;
-			this->A->Location = System::Drawing::Point(166, 675);
+			this->A->Location = System::Drawing::Point(170, 680);
 			this->A->Name = L"A";
-			this->A->Size = System::Drawing::Size(26, 29);
+			this->A->Size = System::Drawing::Size(20, 24);
 			this->A->TabIndex = 3;
 			this->A->Text = L"0";
 			this->A->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -168,11 +167,10 @@ namespace попытканепытка {
 			this->B->AutoSize = true;
 			this->B->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(221)), static_cast<System::Int32>(static_cast<System::Byte>(210)),
 				static_cast<System::Int32>(static_cast<System::Byte>(234)));
-			this->B->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->B->Location = System::Drawing::Point(386, 459);
+			this->B->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14));
+			this->B->Location = System::Drawing::Point(392, 464);
 			this->B->Name = L"B";
-			this->B->Size = System::Drawing::Size(26, 29);
+			this->B->Size = System::Drawing::Size(20, 24);
 			this->B->TabIndex = 4;
 			this->B->Text = L"0";
 			this->B->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -183,11 +181,10 @@ namespace попытканепытка {
 			this->C->AutoSize = true;
 			this->C->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)), static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(165)));
-			this->C->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->C->Location = System::Drawing::Point(601, 675);
+			this->C->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14));
+			this->C->Location = System::Drawing::Point(607, 679);
 			this->C->Name = L"C";
-			this->C->Size = System::Drawing::Size(26, 29);
+			this->C->Size = System::Drawing::Size(20, 24);
 			this->C->TabIndex = 5;
 			this->C->Text = L"0";
 			this->C->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -199,11 +196,10 @@ namespace попытканепытка {
 			this->D->AutoSize = true;
 			this->D->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(250)), static_cast<System::Int32>(static_cast<System::Byte>(180)),
 				static_cast<System::Int32>(static_cast<System::Byte>(165)));
-			this->D->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->D->Location = System::Drawing::Point(386, 892);
+			this->D->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14));
+			this->D->Location = System::Drawing::Point(390, 895);
 			this->D->Name = L"D";
-			this->D->Size = System::Drawing::Size(26, 29);
+			this->D->Size = System::Drawing::Size(20, 24);
 			this->D->TabIndex = 6;
 			this->D->Text = L"0";
 			this->D->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
@@ -215,11 +211,10 @@ namespace попытканепытка {
 			this->E->AutoSize = true;
 			this->E->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(205)), static_cast<System::Int32>(static_cast<System::Byte>(215)),
 				static_cast<System::Int32>(static_cast<System::Byte>(200)));
-			this->E->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 18, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->E->Location = System::Drawing::Point(386, 675);
+			this->E->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14));
+			this->E->Location = System::Drawing::Point(392, 680);
 			this->E->Name = L"E";
-			this->E->Size = System::Drawing::Size(26, 29);
+			this->E->Size = System::Drawing::Size(20, 24);
 			this->E->TabIndex = 7;
 			this->E->Text = L"0";
 			this->E->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
